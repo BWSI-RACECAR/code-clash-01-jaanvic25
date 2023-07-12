@@ -39,7 +39,7 @@ class Solution:
             #return type: boolean
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.
-            pass
+            
 
 def main():
     tc1 = Solution()
