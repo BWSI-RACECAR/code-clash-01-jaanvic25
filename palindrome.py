@@ -31,7 +31,7 @@ class Solution:
         palin = False
         if(len(s) > 6):
             for c in s:
-                if(c == s[len(s) - s.index(c)]):
+                if(c == s[len(s) - s.index(c)]-1):
                     palin = True
         pass
 
