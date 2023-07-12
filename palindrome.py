@@ -33,7 +33,7 @@ class Solution:
             for c in s:
                 if(c == s[len(s) - s.index(c)-1]):
                     palin = True
-        pass
+        return palin
 
             #type s: string
             #return type: boolean
