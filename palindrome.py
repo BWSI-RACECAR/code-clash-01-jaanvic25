@@ -28,12 +28,7 @@ Input: “dad”        Output: False
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self, s):
-        palin = False
-        if(len(s) > 6):
-            for c in s:
-                if(c == s[len(s) - s.index(c)-1]):
-                    palin = True
-        return palin
+        return s == s[::-1] and len(s) > 6
 
             #type s: string
             #return type: boolean
